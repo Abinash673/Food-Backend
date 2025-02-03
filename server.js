@@ -15,7 +15,7 @@ const host = process.env.HOST || '127.0.0.1'; // Use a valid hostname or IP addr
 // middlewares
 app.use(express.json());
 app.use(cors({
-  origin: ['https://food-front-byak.netlify.app/',"http://localhost:5174",], // Allow requests from your frontend URL
+  origin: ['https://my-foodx.netlify.app/',"http://localhost:5174",], // Allow requests from your frontend URL
   credentials: true, // Optional: Allow cookies and authentication headers
 }));
 
